@@ -3,4 +3,4 @@
 $LOAD_PATH.unshift File.join(File.dirname(__FILE__), "..", "lib")
 
 require 'math'
-Launch.new
+Launch.new.start

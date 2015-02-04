@@ -14,26 +14,26 @@
       <img src="./assets/0.8.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-04T11:37:05+05:30">2015-02-04T11:37:05+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-02-04T14:26:51+05:30">2015-02-04T14:26:51+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">93.75%</span></span>
+    (<span class="covered_percent"><span class="green">94.59%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.96
+         2.49
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>6</b> files in total.
-    <b>96</b> relevant lines. 
-    <span class="green"><b>90</b> lines covered</span> and
+    <b>111</b> relevant lines. 
+    <span class="green"><b>105</b> lines covered</span> and
     <span class="red"><b>6</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -63,11 +63,11 @@
       <tr>
         <td class="strong"><a href="#d7effc0e9ff58dd8b25767beaa1e9b3c920a9058" class="src_link" title="lib/math/calculation.rb">lib/math/calculation.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>56</td>
-        <td>27</td>
-        <td>27</td>
+        <td>58</td>
+        <td>28</td>
+        <td>28</td>
         <td>0</td>
-        <td>2.3</td>
+        <td>2.5</td>
       </tr>
       
       <tr>
@@ -83,11 +83,11 @@
       <tr>
         <td class="strong"><a href="#9b5a65f5ccd9be867d73cfa2403987292a06b54a" class="src_link" title="lib/math/parser.rb">lib/math/parser.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>41</td>
-        <td>19</td>
-        <td>19</td>
+        <td>52</td>
+        <td>27</td>
+        <td>27</td>
         <td>0</td>
-        <td>3.7</td>
+        <td>5.3</td>
       </tr>
       
       <tr>
@@ -103,9 +103,9 @@
       <tr>
         <td class="strong"><a href="#e46d327f58f81a7a3dea75b8443230ac62413383" class="src_link" title="spec/math/parser_spec.rb">spec/math/parser_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>41</td>
-        <td>25</td>
-        <td>25</td>
+        <td>49</td>
+        <td>31</td>
+        <td>31</td>
         <td>0</td>
         <td>1.4</td>
       </tr>
@@ -167,8 +167,8 @@
     <h3>lib/math/calculation.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>27</b> relevant lines. 
-      <span class="green"><b>27</b> lines covered</span> and
+      <b>28</b> relevant lines. 
+      <span class="green"><b>28</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -191,322 +191,334 @@
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">	def initialize(value = 0)</code>
+          <code class="ruby">	attr_reader :value</code>
         </li>
       
-        <li class="covered" data-hits="24" data-linenumber="4">
-          <span class="hits">24</span>
-          
-          <code class="ruby">		@value = value</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby">	end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="4">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	def initialize(value = 0)</code>
+        </li>
+      
+        <li class="covered" data-hits="25" data-linenumber="6">
+          <span class="hits">25</span>
+          
+          <code class="ruby">		@value = value</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="9">
           <span class="hits">1</span>
           
           <code class="ruby">	def add(response)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="8">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="5" data-linenumber="10">
+          <span class="hits">5</span>
           
           <code class="ruby">		@value = response + @value</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">	end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">	</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="13">
           <span class="hits">1</span>
           
           <code class="ruby">	def subtract(response)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="12">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="5" data-linenumber="14">
+          <span class="hits">5</span>
           
           <code class="ruby">	  @value = @value - response</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="never" data-hits="" data-linenumber="15">
           
           
           <code class="ruby">	end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="never" data-hits="" data-linenumber="16">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="15">
+        <li class="covered" data-hits="1" data-linenumber="17">
           <span class="hits">1</span>
           
           <code class="ruby">	def multiply(response)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="16">
+        <li class="covered" data-hits="2" data-linenumber="18">
           <span class="hits">2</span>
           
           <code class="ruby">		@value = response * @value</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="17">
+        <li class="never" data-hits="" data-linenumber="19">
           
           
           <code class="ruby">	end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="never" data-hits="" data-linenumber="20">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="19">
+        <li class="covered" data-hits="1" data-linenumber="21">
           <span class="hits">1</span>
           
           <code class="ruby">	def divide(response)</code>
         </li>
       
-        <li class="covered" data-hits="3" data-linenumber="20">
+        <li class="covered" data-hits="3" data-linenumber="22">
           <span class="hits">3</span>
           
           <code class="ruby">		 if (@value == 0)</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="21">
+        <li class="covered" data-hits="2" data-linenumber="23">
           <span class="hits">2</span>
           
           <code class="ruby">		 	return 0</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="never" data-hits="" data-linenumber="24">
           
           
           <code class="ruby">		 else</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="23">
+        <li class="covered" data-hits="1" data-linenumber="25">
           <span class="hits">1</span>
           
           <code class="ruby">		 	@value = response / @value</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="24">
+        <li class="never" data-hits="" data-linenumber="26">
           
           
           <code class="ruby">		 end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="25">
+        <li class="never" data-hits="" data-linenumber="27">
           
           
           <code class="ruby">	end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="26">
+        <li class="never" data-hits="" data-linenumber="28">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="27">
+        <li class="covered" data-hits="1" data-linenumber="29">
           <span class="hits">1</span>
           
           <code class="ruby">	def cancel</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="28">
+        <li class="covered" data-hits="2" data-linenumber="30">
           <span class="hits">2</span>
           
           <code class="ruby">		return 0</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="29">
+        <li class="never" data-hits="" data-linenumber="31">
           
           
           <code class="ruby">	end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="30">
+        <li class="never" data-hits="" data-linenumber="32">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="31">
+        <li class="covered" data-hits="1" data-linenumber="33">
           <span class="hits">1</span>
           
           <code class="ruby">	def square</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="32">
+        <li class="covered" data-hits="2" data-linenumber="34">
           <span class="hits">2</span>
           
           <code class="ruby">    @value ** 2</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="33">
+        <li class="never" data-hits="" data-linenumber="35">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="34">
+        <li class="never" data-hits="" data-linenumber="36">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="35">
+        <li class="covered" data-hits="1" data-linenumber="37">
           <span class="hits">1</span>
           
           <code class="ruby">  def cube</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="36">
+        <li class="covered" data-hits="2" data-linenumber="38">
           <span class="hits">2</span>
           
           <code class="ruby">    @value ** 3</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="37">
+        <li class="never" data-hits="" data-linenumber="39">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="38">
+        <li class="never" data-hits="" data-linenumber="40">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="39">
+        <li class="covered" data-hits="1" data-linenumber="41">
           <span class="hits">1</span>
           
           <code class="ruby">  def negative</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="40">
+        <li class="covered" data-hits="2" data-linenumber="42">
           <span class="hits">2</span>
           
           <code class="ruby">    @value * (-1)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="41">
+        <li class="never" data-hits="" data-linenumber="43">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="42">
+        <li class="never" data-hits="" data-linenumber="44">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="43">
+        <li class="covered" data-hits="1" data-linenumber="45">
           <span class="hits">1</span>
           
           <code class="ruby">  def absolute</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="44">
+        <li class="covered" data-hits="2" data-linenumber="46">
           <span class="hits">2</span>
           
-          <code class="ruby">    @value .abs</code>
+          <code class="ruby">    @value.abs</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="45">
+        <li class="never" data-hits="" data-linenumber="47">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="46">
+        <li class="never" data-hits="" data-linenumber="48">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="47">
+        <li class="covered" data-hits="1" data-linenumber="49">
           <span class="hits">1</span>
           
           <code class="ruby">  def square_root</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="48">
+        <li class="covered" data-hits="2" data-linenumber="50">
           <span class="hits">2</span>
           
           <code class="ruby">    Math.sqrt(@value)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="49">
+        <li class="never" data-hits="" data-linenumber="51">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="50">
+        <li class="never" data-hits="" data-linenumber="52">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="51">
+        <li class="covered" data-hits="1" data-linenumber="53">
           <span class="hits">1</span>
           
           <code class="ruby">  def cube_root</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="52">
+        <li class="covered" data-hits="2" data-linenumber="54">
           <span class="hits">2</span>
           
           <code class="ruby">  	Math.cbrt(@value)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="53">
+        <li class="never" data-hits="" data-linenumber="55">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="54">
+        <li class="never" data-hits="" data-linenumber="56">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="55">
+        <li class="never" data-hits="" data-linenumber="57">
           
           
           <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="56">
+        <li class="never" data-hits="" data-linenumber="58">
           
           
           <code class="ruby"></code>
@@ -665,8 +677,8 @@
     <h3>lib/math/parser.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>19</b> relevant lines. 
-      <span class="green"><b>19</b> lines covered</span> and
+      <b>27</b> relevant lines. 
+      <span class="green"><b>27</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -686,226 +698,226 @@
           <code class="ruby">	def initialize</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="3">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="13" data-linenumber="3">
+          <span class="hits">13</span>
           
           <code class="ruby">		@cal = Calculator.new</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="13" data-linenumber="4">
+          <span class="hits">13</span>
           
-          
-          <code class="ruby">	end</code>
+          <code class="ruby">		@previous_commands = []</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="5">
           
           
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
+        <li class="covered" data-hits="1" data-linenumber="7">
           <span class="hits">1</span>
           
           <code class="ruby">	def parsing(com)</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="7">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="18" data-linenumber="8">
+          <span class="hits">18</span>
           
-          <code class="ruby">		@op,@val_d = com.split(&quot; &quot;)</code>
+          <code class="ruby">		@previous_commands &lt;&lt; com</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="8">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="18" data-linenumber="9">
+          <span class="hits">18</span>
+          
+          <code class="ruby">		op,@val_d = com.split(&quot; &quot;)</code>
+        </li>
+      
+        <li class="covered" data-hits="18" data-linenumber="10">
+          <span class="hits">18</span>
           
           <code class="ruby">		@val = @val_d.to_f</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="9">
-          <span class="hits">11</span>
+        <li class="covered" data-hits="18" data-linenumber="11">
+          <span class="hits">18</span>
           
-          <code class="ruby">		case @op</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby">			when &quot;add&quot;</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="11">
-          <span class="hits">1</span>
-          
-          <code class="ruby">				@result = @cal.add(@val)</code>
+          <code class="ruby">		case op</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
-          <code class="ruby">			when &quot;subtract&quot;</code>
+          <code class="ruby">			when &quot;add&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="13">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="13">
+          <span class="hits">4</span>
           
-          <code class="ruby">				@result = @cal.subtract(@val)</code>
+          <code class="ruby">				@result = @cal.add(@val)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
           
           
-          <code class="ruby">			when &quot;multiply&quot;</code>
+          <code class="ruby">			when &quot;subtract&quot;</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="15">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="4" data-linenumber="15">
+          <span class="hits">4</span>
           
-          <code class="ruby">				@result = @cal.multiply(@val)</code>
+          <code class="ruby">				@result = @cal.subtract(@val)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
           
           
-          <code class="ruby">			when &quot;divide&quot;</code>
+          <code class="ruby">			when &quot;multiply&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="17">
           <span class="hits">1</span>
           
-          <code class="ruby">				@result = @cal.divide(@val)</code>
+          <code class="ruby">				@result = @cal.multiply(@val)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">			when &quot;cancel&quot;</code>
+          <code class="ruby">			when &quot;divide&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="19">
           <span class="hits">1</span>
           
-          <code class="ruby">				@result = @cal.cancel</code>
+          <code class="ruby">				@result = @cal.divide(@val)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby">			when &quot;sqr&quot;</code>
+          <code class="ruby">			when &quot;cancel&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="21">
           <span class="hits">1</span>
           
-          <code class="ruby">				@result = @cal.square</code>
+          <code class="ruby">				@result = @cal.cancel</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="22">
           
           
-          <code class="ruby">			when &quot;sqrt&quot;</code>
+          <code class="ruby">			when &quot;sqr&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="23">
           <span class="hits">1</span>
           
-          <code class="ruby">				@result = @cal.square_root</code>
+          <code class="ruby">				@result = @cal.square</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
           
           
-          <code class="ruby">			when &quot;cube&quot;</code>
+          <code class="ruby">			when &quot;sqrt&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="25">
           <span class="hits">1</span>
           
-          <code class="ruby">				@result = @cal.cube</code>
+          <code class="ruby">				@result = @cal.square_root</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="26">
           
           
-          <code class="ruby">			when &quot;cubert&quot;</code>
+          <code class="ruby">			when &quot;cube&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="27">
           <span class="hits">1</span>
           
-          <code class="ruby">				@result = @cal.cube_root</code>
+          <code class="ruby">				@result = @cal.cube</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="28">
           
           
-          <code class="ruby">			when &quot;abs&quot;</code>
+          <code class="ruby">			when &quot;cubert&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="29">
           <span class="hits">1</span>
           
-          <code class="ruby">				@result = @cal.absolute</code>
+          <code class="ruby">				@result = @cal.cube_root</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="30">
           
           
-          <code class="ruby">			when &quot;neg&quot;</code>
+          <code class="ruby">			when &quot;abs&quot;</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="31">
           <span class="hits">1</span>
           
-          <code class="ruby">				@result = @cal.negative</code>
+          <code class="ruby">				@result = @cal.absolute</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="32">
           
           
-          <code class="ruby">			end</code>
+          <code class="ruby">			when &quot;neg&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="33">
+        <li class="covered" data-hits="1" data-linenumber="33">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">				@result = @cal.negative</code>
         </li>
       
-        <li class="covered" data-hits="11" data-linenumber="34">
-          <span class="hits">11</span>
+        <li class="never" data-hits="" data-linenumber="34">
           
-          <code class="ruby">		return @result</code>
+          
+          <code class="ruby">		  when &quot;repeat&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="35">
+        <li class="covered" data-hits="1" data-linenumber="35">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">	end</code>
+          <code class="ruby">		  	@result = self.repetition</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="36">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">		 end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="37">
           
           
-          <code class="ruby">end</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="38">
+        <li class="covered" data-hits="18" data-linenumber="38">
+          <span class="hits">18</span>
           
-          
-          <code class="ruby"></code>
+          <code class="ruby">		return @result</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="39">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="40">
@@ -914,7 +926,73 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="41">
+        <li class="covered" data-hits="1" data-linenumber="41">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	def repetition</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		@previous_commands.pop</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="43">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		for i in @previous_commands.length - @val.to_i .. @previous_commands.length - 1</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="44">
+          <span class="hits">2</span>
+          
+          <code class="ruby">			final_value = self.parsing(@previous_commands[i])</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="45">
+          
+          
+          <code class="ruby">		end</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="46">
+          <span class="hits">1</span>
+          
+          <code class="ruby">			return final_value</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="50">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="51">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="52">
           
           
           <code class="ruby"></code>
@@ -1055,8 +1133,8 @@
     <h3>spec/math/parser_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>25</b> relevant lines. 
-      <span class="green"><b>25</b> lines covered</span> and
+      <b>31</b> relevant lines. 
+      <span class="green"><b>31</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1073,7 +1151,7 @@
         <li class="never" data-hits="" data-linenumber="2">
           
           
-          <code class="ruby">	</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="3">
@@ -1088,8 +1166,8 @@
           <code class="ruby">	</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="5">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="13" data-linenumber="5">
+          <span class="hits">13</span>
           
           <code class="ruby">	let(:var) { Parser.new}</code>
         </li>
@@ -1115,196 +1193,244 @@
         <li class="never" data-hits="" data-linenumber="9">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="10">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should multiply &quot; do</code>
+          <code class="ruby">	it &quot;should multiply &quot; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="11">
           <span class="hits">1</span>
           
-          <code class="ruby">    	expect(var.parsing(&#39;multiply 5&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;multiply 5&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
           
           
-          <code class="ruby">  	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="13">
           <span class="hits">1</span>
           
-          <code class="ruby"> 	 it &quot;should divide &quot; do</code>
+          <code class="ruby">	it &quot;should divide &quot; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="14">
           <span class="hits">1</span>
           
-          <code class="ruby">    	expect(var.parsing(&#39;divide 5&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;divide 5&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="15">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="16">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should subtract &quot; do</code>
+          <code class="ruby">	it &quot;should subtract &quot; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="17">
           <span class="hits">1</span>
           
-          <code class="ruby">	    expect(var.parsing(&#39;subtract 5&#39;)).to eq(-5)</code>
+          <code class="ruby">		expect(var.parsing(&#39;subtract 5&#39;)).to eq(-5)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="19">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should reset the result &quot; do </code>
+          <code class="ruby">	it &quot;should reset the result &quot; do </code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="20">
           <span class="hits">1</span>
           
-          <code class="ruby">	  	expect(var.parsing(&#39;cancel&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;cancel&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="21">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="22">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should find sqaure &quot; do </code>
+          <code class="ruby">	it &quot;should find sqaure &quot; do </code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="23">
           <span class="hits">1</span>
           
-          <code class="ruby">	  	expect(var.parsing(&#39;sqr&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;sqr&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="25">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should find sqaureroot &quot; do </code>
+          <code class="ruby">	it &quot;should find sqaureroot &quot; do </code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="26">
           <span class="hits">1</span>
           
-          <code class="ruby">	  	expect(var.parsing(&#39;sqrt&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;sqrt&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="27">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="28">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should find cube &quot; do </code>
+          <code class="ruby">	it &quot;should find cube &quot; do </code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="29">
           <span class="hits">1</span>
           
-          <code class="ruby">	  	expect(var.parsing(&#39;cube&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;cube&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="30">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="31">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should find cube root&quot; do </code>
+          <code class="ruby">	it &quot;should find cube root&quot; do </code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="32">
           <span class="hits">1</span>
           
-          <code class="ruby">	  	expect(var.parsing(&#39;cubert&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;cubert&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="33">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="34">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should find absolute &quot; do </code>
+          <code class="ruby">	it &quot;should find absolute &quot; do </code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="35">
           <span class="hits">1</span>
           
-          <code class="ruby">	  	expect(var.parsing(&#39;abs&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;abs&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="36">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="37">
           <span class="hits">1</span>
           
-          <code class="ruby">	 it &quot;should find negation &quot; do </code>
+          <code class="ruby">	it &quot;should find negation &quot; do </code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="38">
           <span class="hits">1</span>
           
-          <code class="ruby">	  	expect(var.parsing(&#39;neg&#39;)).to eq(0)</code>
+          <code class="ruby">		expect(var.parsing(&#39;neg&#39;)).to eq(0)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="39">
           
           
-          <code class="ruby">	 end</code>
+          <code class="ruby">	end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="40">
+        <li class="covered" data-hits="1" data-linenumber="40">
+          <span class="hits">1</span>
+          
+          <code class="ruby">	it &quot;checks&quot; do </code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="41">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		var.parsing(&#39;add 5&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="42">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		var.parsing(&#39;subtract 2&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="43">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		var.parsing(&#39;add 5&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="44">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		var.parsing(&#39;subtract 2&#39;)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="45">
+          <span class="hits">1</span>
+          
+          <code class="ruby">		expect(var.parsing(&#39;repeat 2&#39;)).to eq(9)</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="46">
+          
+          
+          <code class="ruby">	end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="47">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="41">
+        <li class="never" data-hits="" data-linenumber="48">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="49">
           
           
           <code class="ruby">end</code>

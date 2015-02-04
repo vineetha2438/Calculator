@@ -1,4 +1,4 @@
-
+#Launches the application
 class Launch
 	def initialize
 		@par = Parser.new
